@@ -6,7 +6,11 @@ um='1'
 p=1
 tput setaf 1 ;tput bold; figlet 'erro no sistema'
 figlet 'seu sistema foi infectado!'
-sleep 10
+sleep 5
+jp2a --color --chars=clodxkO0KXNWM softwares/software_app/mine/caveira.jpg
+tput setaf 1
+tput bold
+sleep 5
 while [ 2000 -gt $p ];do
  um=$um"10"
    echo $um
